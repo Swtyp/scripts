@@ -11,3 +11,10 @@
 
 ### get_all_www.py
 Чтение всех json файлов из папки по пути PATH_ENTRY и объединение в один файл www.txt (список необработанных urls)
+
+### jsons_to_json.py
+Обычное объединение нескольких файлов PATH_JSONS json в один общий PATH_OUT_JSON с характеристиками роутеров из сервиса DNS
+
+### transform_ids_to_urls.py
+Чтение из (PATH_LOG / path_input) ids карточек и подстановка id в url "https://www.dns-shop.ru/pwa/pwa/get-product/?id=" и 
+дальнейшая сохранение в файл (PATH_URLS / path_out)
